@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootJobTracker.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootJobTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootJobTracker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootJobTracker_main.iml" group="SpringBootJobTracker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootJobTracker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootJobTracker_test.iml" group="SpringBootJobTracker" />
+    </modules>
+  </component>
+</project>
