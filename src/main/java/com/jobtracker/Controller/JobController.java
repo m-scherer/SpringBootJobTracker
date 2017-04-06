@@ -3,10 +3,7 @@ package com.jobtracker.Controller;
 import com.jobtracker.Entity.Job;
 import com.jobtracker.Service.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
@@ -30,5 +27,10 @@ public class JobController {
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public void deleteJobById(@PathVariable("id") int id){
         jobService.removeJobById(id);
+    }
+
+    @RequestMapping(value = "/{id}",method = RequestMethod.PUT)
+    public void updateJobById(@PathVariable("id") int id, @RequestParam("name") String paramName, @RequestParam("company") String paramCompany) {
+        jobService.updateJobById(id, paramName, paramCompany);
     }
 }

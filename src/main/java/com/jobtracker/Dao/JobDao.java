@@ -35,4 +35,11 @@ public class JobDao {
     public void removeJobById(int id) {
         this.jobs.remove(id);
     }
+
+    public void updateJobById(int id, String paramName, String paramCompany) {
+        Job job = jobs.get(id);
+        job.setCompany(paramCompany);
+        job.setName(paramName);
+        jobs.put(job.getId(), job);
+    }
 }

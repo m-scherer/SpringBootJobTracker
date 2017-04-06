@@ -24,4 +24,8 @@ public class JobService {
     public void removeJobById(int id) {
         this.jobDao.removeJobById(id);
     }
+
+    public void updateJobById(int id, String paramName, String paramCompany) {
+        this.jobDao.updateJobById(id, paramName, paramCompany);
+    }
 }
