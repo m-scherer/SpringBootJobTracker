@@ -14,6 +14,10 @@ public class JobService {
     private JobDao jobDao;
 
     public Collection<Job> getAllJobs(){
-        return jobDao.getAllJobs();
+        return this.jobDao.getAllJobs();
+    }
+
+    public Job getJobById(int id) {
+        return this.jobDao.getJobById(id);
     }
 }

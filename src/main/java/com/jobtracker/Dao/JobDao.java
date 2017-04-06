@@ -27,4 +27,8 @@ public class JobDao {
     public Collection<Job> getAllJobs(){
         return this.jobs.values();
     }
+
+    public Job getJobById(int id) {
+        return this.jobs.get(id);
+    }
 }
