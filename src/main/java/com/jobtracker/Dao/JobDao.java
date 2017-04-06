@@ -42,4 +42,9 @@ public class JobDao {
         job.setName(paramName);
         jobs.put(job.getId(), job);
     }
+
+    public void createJob(String paramsName, String paramCompany) {
+        int id = jobs.keySet().size();
+        jobs.put(id, new Job (id, paramsName, paramCompany));
+    }
 }

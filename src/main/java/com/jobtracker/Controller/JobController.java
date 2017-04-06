@@ -30,7 +30,14 @@ public class JobController {
     }
 
     @RequestMapping(value = "/{id}",method = RequestMethod.PUT)
-    public void updateJobById(@PathVariable("id") int id, @RequestParam("name") String paramName, @RequestParam("company") String paramCompany) {
+    public Job updateJobById(@PathVariable("id") int id, @RequestParam("name") String paramName, @RequestParam("company") String paramCompany) {
         jobService.updateJobById(id, paramName, paramCompany);
+        return jobService.getJobById(id);
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    public Collection<Job> createJob(@RequestParam("name") String paramsName, @RequestParam("company") String paramCompany) {
+        jobService.createJob(paramsName, paramCompany);
+        return jobService.getAllJobs();
     }
 }
