@@ -40,11 +40,10 @@ public class JobDao {
         Job job = jobs.get(id);
         job.setCompany(paramCompany);
         job.setName(paramName);
-        jobs.put(job.getId(), job);
+        this.jobs.put(job.getId(), job);
     }
 
-    public void createJob(String paramsName, String paramCompany) {
-        int id = jobs.keySet().size();
-        jobs.put(id, new Job (id, paramsName, paramCompany));
+    public void createJob(Job job) {
+        this.jobs.put(job.getId(), job);
     }
 }

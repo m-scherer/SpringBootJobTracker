@@ -37,7 +37,8 @@ public class JobController {
 
     @RequestMapping(method = RequestMethod.POST)
     public Collection<Job> createJob(@RequestParam("name") String paramsName, @RequestParam("company") String paramCompany) {
-        jobService.createJob(paramsName, paramCompany);
+        int id = jobService.getAllJobs().size() + 1;
+        jobService.createJob(new Job(id, paramsName, paramCompany));
         return jobService.getAllJobs();
     }
 }

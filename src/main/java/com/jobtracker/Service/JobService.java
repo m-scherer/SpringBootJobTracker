@@ -29,7 +29,7 @@ public class JobService {
         this.jobDao.updateJobById(id, paramName, paramCompany);
     }
 
-    public void createJob(String paramsName, String paramCompany) {
-        this.jobDao.createJob(paramsName, paramCompany);
+    public void createJob(Job job) {
+        this.jobDao.createJob(job);
     }
 }
