@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e134f32a-ec97-4093-9cde-f97d07a57fe6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jobtracker/Controller/JobController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jobtracker/Controller/JobController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/JobDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/JobDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jobtracker/Service/JobService.java" afterPath="$PROJECT_DIR$/src/main/java/com/jobtracker/Service/JobService.java" />
@@ -63,45 +62,51 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/JobDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#686#687#0" expanded="true" />
                 <element signature="e#727#728#0" expanded="true" />
                 <element signature="e#764#765#0" expanded="true" />
                 <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JobService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Service/JobService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="486">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JobController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Controller/JobController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="558">
+              <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#665#666#0" expanded="true" />
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#832#833#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -642,9 +647,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/Company.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Entity/Job.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Controller/JobController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/JobDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Service/JobService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jobtracker/Controller/JobController.java" />
       </list>
     </option>
   </component>
@@ -1311,16 +1316,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491494309136</updated>
-      <workItem from="1491494310831" duration="2915000" />
+      <workItem from="1491494310831" duration="3171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2915000" />
+    <option name="totallyTimeSpent" value="3171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1821" y="-1418" width="2560" height="1418" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1419,44 +1423,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/JobDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Service/JobService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Controller/JobController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="558">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#665#666#0" expanded="true" />
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#832#833#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Dao/JobDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobtracker/Service/JobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
           </folding>
         </state>
       </provider>

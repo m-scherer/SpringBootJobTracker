@@ -31,4 +31,8 @@ public class JobDao {
     public Job getJobById(int id) {
         return this.jobs.get(id);
     }
+
+    public void removeJobById(int id) {
+        this.jobs.remove(id);
+    }
 }

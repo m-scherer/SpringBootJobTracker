@@ -26,4 +26,9 @@ public class JobController {
     public Job getJobById(@PathVariable("id") int id){
         return jobService.getJobById(id);
     }
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public void deleteJobById(@PathVariable("id") int id){
+        jobService.removeJobById(id);
+    }
 }

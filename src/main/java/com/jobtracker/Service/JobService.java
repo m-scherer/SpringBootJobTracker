@@ -20,4 +20,8 @@ public class JobService {
     public Job getJobById(int id) {
         return this.jobDao.getJobById(id);
     }
+
+    public void removeJobById(int id) {
+        this.jobDao.removeJobById(id);
+    }
 }
